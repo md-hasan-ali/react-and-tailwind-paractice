@@ -1,23 +1,12 @@
-import logo from './logo.svg';
+
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h2 className='text-gray-200 bg-yellow-500 p-5 text-5xl	'>Hello Tailwind css here..</h2>
+
+      <h2 className='bg-red-500 text-white p-5 text-4xl'>My Name is Hasan ali(Ringkua)</h2>
     </div>
   );
 }
